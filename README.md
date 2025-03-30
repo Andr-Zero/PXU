@@ -16,12 +16,12 @@
 - Direct Swap with OEM power supply.
 
 ##### Installation
--Warning again: The OEM power supply can be potentially dangerous even after being unplugged for a long periods of time. Proceed with caution! 
--Make sure AC cord in unplugged!
--Open console and remove HDD tray. Unplug the cable connecting the OEM power supply to the main board.
--Remove the two screws holding the power supply down. 
--Slide to the front of the console. The power supply should be lift up and out now. Might have to angle to get it out of the shell. 
--Installation is reverse order,
+- Warning again: The OEM power supply can be potentially dangerous even after being unplugged for a long periods of time.
+- Proceed with caution! Make sure AC cord in unplugged! Open console and remove HDD tray.
+- Unplug the cable connecting the OEM power supply to the main board.
+- Remove the two screws holding the power supply down. Slide to the front of the console.
+- The power supply should be lift up and out now. Might have to angle to get it out of the shell.
+- Installation is reverse order.
 
 ##### TODO
 
