@@ -30,10 +30,7 @@
 - Provide physical designs for input modules.
 
 ##### FAQ
-- Where can I buy?   
-   Not for sale YET. Should have a test batch out to testers out in a few weeks. Hope Pre-Orders will be soon.
-- Is it Open Source?   
-   Eventually... Just not currently.
+
 - Will "******" work as a power source?   
     I can't say. There's too many to test. I've tested my MSI laptop Charger (180w) and an Anker 100W USB-C charger. I dont see why anything similar whould not work
 - Can you add "X" feature?
