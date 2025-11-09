@@ -1,0 +1,283 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "661381fb-2850-491e-aecc-19481c29ee6f")
+	(paper "USLetter")
+	(title_block
+		(title "pXu")
+		(date "2025-01-02")
+		(rev "1")
+		(company "Andr0")
+	)
+	(lib_symbols)
+	(text "OEM PSU Amp Secifications:\n(as written)\n\n1.6 Delta\n12v_SW  = 0.8A\n5v_SW   = 3.6A\n5v      = 13.6A\n\n1.0 Foxlink (ol' sparky)\n12v_SW  = 1.2A\n5v_SW   = 13.2A\n3.3v_SW = 4.8A\n3.3v_SB = 0.045A\n\n1.2-1.4 Delta\n12v_SW  = 1.2A\n5v_SW   = 13.2A\n3.3v_SW = 4.8A\n3.3v_SB =  0.075"
+		(exclude_from_sim no)
+		(at 226.568 32.766 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "b953b78d-ed53-4503-83b7-d9a65672df76")
+	)
+	(text_box "           Console Revisions\n\nComponent    1.0-1.4     1.6\n\nR2            0            DNP\nR4            DNP          0\nR6            DNP          0\nR10           DNP          0\nR26           0            DNP\n"
+		(exclude_from_sim yes)
+		(at 33.02 100.584 0)
+		(size 35.306 21.336)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "d5ae2d15-02fc-408a-b758-601fb21defd7")
+	)
+	(text_box "Documented Power Draw (Rounded)(1.0-1.4)(HDD Not included)\n\n3v3StBy = 0.5A ??\n3v3     = 4A\n5V      = 7A\n12V     = 0.5A\n\nXboxDevWiki"
+		(exclude_from_sim yes)
+		(at 170.18 13.97 0)
+		(size 40.64 17.78)
+		(margins 0.9652 0.9652 0.9652 0.9652)
+		(stroke
+			(width 0.0254)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0d749f7-e420-4100-b5a0-f17fe5622672")
+	)
+	(sheet
+		(at 33.02 35.56)
+		(size 116.84 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48aa6ddf-a82c-40d6-b9fa-a0ab03a30ad8")
+		(property "Sheetname" "5V Rail"
+			(at 32.766 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pXu-5v.kicad_sch"
+			(at 33.02 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PXU"
+				(path "/661381fb-2850-491e-aecc-19481c29ee6f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 32.766 75.438)
+		(size 116.84 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c037a5cb-7703-49a8-a332-92a368c20452")
+		(property "Sheetname" "ATX & POW Signals"
+			(at 32.766 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Output.kicad_sch"
+			(at 32.766 79.8326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PXU"
+				(path "/661381fb-2850-491e-aecc-19481c29ee6f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 55.88)
+		(size 116.84 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2a0f4f9-1c65-4474-9841-ae2f8d44e6c3")
+		(property "Sheetname" "3v3 Rail"
+			(at 33.02 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3v3.kicad_sch"
+			(at 33.02 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PXU"
+				(path "/661381fb-2850-491e-aecc-19481c29ee6f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.274 46.228)
+		(size 116.586 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc7d1408-31b0-499b-8926-95cf94cb8bc0")
+		(property "Sheetname" "12V Rail"
+			(at 33.02 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12V-Rail.kicad_sch"
+			(at 32.766 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PXU"
+				(path "/661381fb-2850-491e-aecc-19481c29ee6f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 66.04)
+		(size 116.84 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fce177fc-ec5f-4f21-a886-9bea04db7a9a")
+		(property "Sheetname" "Standby Voltages"
+			(at 33.02 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "StandbyVolts.kicad_sch"
+			(at 33.02 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PXU"
+				(path "/661381fb-2850-491e-aecc-19481c29ee6f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

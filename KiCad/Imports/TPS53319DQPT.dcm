@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS53319DQPT
+D 1.5V to 22V Input (4.5V to 25V Bias), 14A Synchronous Step-Down Converter with Eco-Mode&#153; 
+K
+F http://www.ti.com/lit/gpn/tps53319
+$ENDCMP
+#
+#End Doc Library

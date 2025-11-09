@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CONN_171826-4")(type "KiCad")(uri "${KIPRJMOD}/Imports/CONN_171826-4.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74LVC1G11DCKR")(type "KiCad")(uri "${KIPRJMOD}/Imports/SN74LVC1G11DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS53319DQPT")(type "KiCad")(uri "${KIPRJMOD}/Imports/TPS53319DQPT.kicad_sym")(options "")(descr ""))
+  (lib (name "AP7375_33SP")(type "KiCad")(uri "${KIPRJMOD}/Imports/AP7375_33SP_13.kicad_sym")(options "")(descr ""))
+  (lib (name "1ss308")(type "KiCad")(uri "${KIPRJMOD}/Imports/1SS308_TE85L_F.kicad_sym")(options "")(descr ""))
+  (lib (name "logic")(type "KiCad")(uri "${KIPRJMOD}/Imports/2025-06-12_21-22-39.kicad_sym")(options "")(descr ""))
+  (lib (name "CSD25402Q3A")(type "KiCad")(uri "${KIPRJMOD}/Imports/CSD25402Q3A.kicad_sym")(options "")(descr ""))
+)
