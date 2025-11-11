@@ -1,5 +1,5 @@
 # PXU
-## _Repalcement Power Supply for the Orignial Xbox!_
+## _Replacement Power Supply for the Original Xbox!_
 
 ##### Disclaimer!
 - I'm not an Electrical Engineer. Just wanted to make something cool and challenge myself.
