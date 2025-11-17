@@ -40501,6 +40501,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Copyright (C) 2025 Andr0\n\nLicensed under the CERN-OHL-S v2 or later.\nThis documentation is distributed WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY\nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see\nthe CERN-OHL-S v2 for details."
+		(at 130.5994 88.8768 0)
+		(layer "User.1")
+		(uuid "7306092b-9eb4-41cc-b17a-512deec0b190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "{\n  \"ViaStitching\": \"0.2\",\n  \"stitch_zone_0\": {\n    \"HSpacing\": \"5\",\n    \"VSpacing\": \"5\",\n    \"Clearance\": \"0.5\",\n    \"Randomize\": false\n  }\n}"
 		(at 0 0 0)
 		(layer "User.9")
@@ -64044,8 +64056,8 @@
 		(members "11eacff8-4a26-4be5-9134-b23743413dab" "21f5d387-1fb0-477c-8970-98722b7dcbd7"
 			"2789e5ee-7a92-4222-a8c7-21ae8f4675e8" "3dd531dd-f4ea-4a6c-b57f-77289859be35"
 			"4bd94cc8-997a-442a-8b2b-ff978c32e2bd" "5354615a-6af8-4e96-ade6-abf8e0f0844e"
-			"8123f273-3998-4f8b-abc8-42e69aab4dfb" "8f09a6d0-43d3-47c2-b7a9-d3ca0aa47393"
-			"93f631ac-af85-4295-ad35-d0499a433389" "db5cdd14-ac91-4d31-9ca5-6a5fe56b83ee"
+			"8f09a6d0-43d3-47c2-b7a9-d3ca0aa47393" "93f631ac-af85-4295-ad35-d0499a433389"
+			"db5cdd14-ac91-4d31-9ca5-6a5fe56b83ee"
 		)
 	)
 	(group ""

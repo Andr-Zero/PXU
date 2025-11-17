@@ -23,6 +23,16 @@
 		)
 		(uuid "b953b78d-ed53-4503-83b7-d9a65672df76")
 	)
+	(text "Copyright (C) 2025 Andr0\n\nLicensed under the CERN-OHL-S v2 or later.\nThis documentation is distributed WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY\nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see\nthe CERN-OHL-S v2 for details."
+		(exclude_from_sim no)
+		(at 208.788 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c8268161-043c-4b94-9857-0428d4e2f044")
+	)
 	(text_box "           Console Revisions\n\nComponent    1.0-1.4     1.6\n\nR2            0            DNP\nR4            DNP          0\nR6            DNP          0\nR10           DNP          0\nR26           0            DNP\n"
 		(exclude_from_sim yes)
 		(at 33.02 100.584 0)
